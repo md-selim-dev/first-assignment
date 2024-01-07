@@ -154,7 +154,7 @@ main {
   color: white;
 }
 
-.event-time  {
+.event-time {
   color: #070211;
   font-family: sans-serif;
   font-size: 32px;
@@ -167,3 +167,49 @@ main {
 }
 
 /* coming soon section */
+.coming-soon {
+  gap: 12px;
+  display: flex;
+  justify-items: center;
+  justify-content: space-between;
+  margin-bottom: 120px;
+  font-family: "Inter" sans-serif;
+}
+
+.coming-soon .left,
+.right,
+.middle {
+  width: 26%;
+}
+
+.coming-soon .left {
+  text-align: justify;
+}
+.coming-soon .left .offer {
+  color: #f00;
+  font-family: Inter;
+  font-weight: 500px;
+}
+
+.left-title {
+  color: #070211;
+  font-family: "Merriweather", sans-serif;
+  font-size: 40px;
+  font-weight: 900;
+}
+.coming-soon .right .nYear {
+  color: #f00;
+  font-family: Inter;
+  font-size: 48px;  
+  font-weight: 700;
+}
+.coming-soon .left-description, .coming-soon .abt-n-year {
+  color: rgb(51, 50, 50);
+}
+
+.coming-soon .middle {
+  border: 15px solid #f00;
+  border-radius: 50%;
+  background: white ;
+  padding: 20px;
+}
