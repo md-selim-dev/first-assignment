@@ -200,17 +200,18 @@ span {
 .coming-soon .right .nYear {
   color: #f00;
   font-family: Inter;
-  font-size: 48px;  
+  font-size: 48px;
   font-weight: 700;
 }
-.coming-soon .left-description, .coming-soon .abt-n-year {
+.coming-soon .left-description,
+.coming-soon .abt-n-year {
   color: rgb(51, 50, 50);
 }
 
 .coming-soon .middle {
   border: 15px solid #f00;
   border-radius: 50%;
-  background: white ;
+  background: white;
   padding: 18px;
 }
 
@@ -223,11 +224,10 @@ span {
   text-align: center;
   padding: 0 100px;
   margin-bottom: 60px;
-  
 }
 .holiday-discount .content-area .funtion-title {
   color: #070211;
-  font-family: "Inter" sans-serif;  
+  font-family: "Inter" sans-serif;
   font-size: 24px;
   font-weight: 500px;
 }
@@ -242,29 +242,69 @@ span {
 }
 .holiday-discount .content-area .description {
   color: #2e2e2e;
-  font-size: "Inter" sans-serif;
+  font-style: "Inter" sans-serif;
   font-size: 20px;
 }
 
 .holiday-discount .image-area {
   height: 600px;
-  background-image: url(../resources/Rectangle\ 2.png), url(../resources/Rectangle\ 1.png);
+  background-image: url(../resources/Rectangle\ 2.png),
+    url(../resources/Rectangle\ 1.png);
   background-repeat: no-repeat;
   background-position: bottom, right top;
   background-size: 100% 196px, 400px;
   border-radius: 16px;
   overflow: hidden;
   display: flex;
-
 }
 .image-area .giftBox {
   width: 500px;
 }
-
 
 .image-area .discountImg {
   width: 300px;
   height: 300px;
   padding-top: 50px;
   margin-left: 200px;
+}
+
+/* portfolio section styles */
+.portfolio .portfolio-content {
+  width: 70.5%;
+}
+
+.portfolio .portfolio-content .portfolioGiftTitle {
+  color: #f00;
+  font-family: "Inter" sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  
+}
+
+.portfolio .portfolio-content .portfolio-awesome {
+  color: #070211;
+  font-family: "Merriweather", sans-serif;
+  font-size: 48px;
+  font-weight: 900;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.portfolio .portfolio-content .portfolio-description {
+  color:  #2e2e2e;
+  font-family: "Inter" sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+.portfolio .img1, .img2 {
+  width: 100%;
+}
+  
+.portfolio img {
+  margin: 15px 25px 15px 0 ;
+  width: 30%;
+}
+
+.portfolio img:hover {
+  transform: rotate(3deg);
 }
