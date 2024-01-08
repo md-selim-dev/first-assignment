@@ -123,13 +123,19 @@ main {
   font-size: 20px;
   font-weight: 700;
   font-family: "Inter" serif;
-  background-color: transparent;
   color: white;
+  cursor: pointer;
+  background-color: transparent;
 }
+
+.btn-join:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
 
 /* Join now section */
 .join-section {
-  height: 300px;
+  height: 280px;
   background-image: linear-gradient(
     180deg,
     rgba(255, 0, 0, 0.1) 0%,
@@ -137,13 +143,18 @@ main {
   );
   font-family: "Inter" serif;
   margin-bottom: 120px;
-  padding: 70px 200px 100px;
+  padding: 78px 200px 100px;
   border-radius: 16px;
 }
 
-.btn-join1 {
-  display: block;
+.join-btnn {  
+  width: 178px;
   margin: 20px auto;
+  
+}
+
+
+.join-section .btn-join1 {
   text-transform: uppercase;
   padding: 16px 32px;
   border: none;
@@ -152,6 +163,11 @@ main {
   font-weight: 700;
   background-color: #f00;
   color: white;
+  cursor: pointer;
+}   
+
+.join-section .btn-join1:hover {
+  background-color: rgb(190, 12, 12);
 }
 
 .event-time {
@@ -161,6 +177,10 @@ main {
   font-weight: 600;
   text-align: center;
   text-transform: capitalize;
+}
+
+.event-time p {
+  line-height: 25px;
 }
 span {
   color: #f00;
@@ -183,7 +203,7 @@ span {
 }
 
 .coming-soon .left {
-  text-align: justify;
+  line-height: 24px;  
 }
 .coming-soon .left .offer {
   color: #f00;
@@ -191,7 +211,7 @@ span {
   font-weight: 500px;
 }
 
-.left-title {
+.coming-soon .left-title {
   color: #070211;
   font-family: "Merriweather", sans-serif;
   font-size: 40px;
@@ -206,18 +226,20 @@ span {
 .coming-soon .left-description,
 .coming-soon .abt-n-year {
   color: rgb(51, 50, 50);
+  line-height: 24px;  
 }
 
 .coming-soon .middle {
   border: 15px solid #f00;
   border-radius: 50%;
   background: white;
-  padding: 18px;
+  padding: 20px;
 }
 
 /* Holiday discount section */
 .holiday-discount {
   margin-bottom: 120px;
+  position: relative;
 }
 
 .holiday-discount .content-area {
@@ -244,9 +266,11 @@ span {
   color: #2e2e2e;
   font-style: "Inter" sans-serif;
   font-size: 20px;
+  line-height: 32px;
 }
 
 .holiday-discount .image-area {
+  width: 100%;
   height: 600px;
   background-image: url(../resources/Rectangle\ 2.png),
     url(../resources/Rectangle\ 1.png);
@@ -257,15 +281,15 @@ span {
   overflow: hidden;
   display: flex;
 }
-.image-area .giftBox {
-  width: 500px;
+
+.giftBox {
+  width: 550px;
 }
 
-.image-area .discountImg {
+.discountImg {
+  margin-top: 50px;
   width: 300px;
   height: 300px;
-  padding-top: 50px;
-  margin-left: 200px;
 }
 
 /* portfolio section styles */
@@ -298,8 +322,7 @@ span {
   font-size: 20px;
   font-weight: 400;
 }
-.portfolio .img1,
-.img2 {
+.portfolio .img1, .img2 {
   width: 100%;
 }
 
@@ -338,45 +361,74 @@ span {
   font-weight: 400;
   font-family: "Inter" sans-serif;
 }
-
-.input-subscribe .submit {
-  padding: 25px 50px;
-  border-radius: 50px;
-  background: #fff;
+.input-subscribe {
+  display: block;
+  width: 500px;
+  margin: 50px auto;
+  border-radius: 20px;
 }
 
+.input-subscribe > form > input, button {
+  display: block;
+  float: left;
+  padding: 18px 40px;
+  border: none;
+}
+.input-subscribe > form > input {
+  font-size: 16px;
+  background-color: azure;
+  border-radius: 30px 0  0 30px ; 
+}
+
+.input-subscribe > form > button {
+  padding: 15px 20px;
+  font-size: 20px;
+  color: white;
+  background-color: #f00;
+  border-radius: 0 30px 30px 0 ; 
+  cursor: pointer;
+}
 
 /* footer section */
 footer {
   height: 300px;
-  padding: 90px 200px 120px;
+  padding: 100px 120px 120px;
   background: #070211;;
   color: white;
-}
-.address-contact {
-  border-bottom: 1px solid gray;
+  font-size: 20px ;
 }
 
 .address-contact {
   display: flex;
   justify-content: space-between;
   align-items: center ;
+  border-bottom: 1px solid gray;
 }
 
 .address-contact .address {
-  width: 300px;
-  line-height: 32px;
+  width: 330px;
+  line-height: 38px;
 }
 
-.address-contact .contact label {
+ label {
   display: block;
-  line-height: 32px;
+  line-height: 38px;
 }
-
+.address-contact .contact {
+  margin-right: 50px;
+}
+.address-contact img {
+  margin-bottom: -8px;
+}
 .social-link {
   padding: 35px 300px;
   border-bottom: 1px solid gray;
   
+}
+
+.address-contact .contact label a {
+  color: white;
+  text-decoration: none ;
 }
 .social-link a {
   margin-right: 10px;
@@ -388,4 +440,9 @@ footer {
   justify-items: center;
   align-items: center;
   padding-top: 25px;
+}
+
+.copyright-section a {
+  color: white;
+  text-decoration: none;
 }
