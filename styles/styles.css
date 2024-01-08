@@ -269,6 +269,9 @@ span {
 }
 
 /* portfolio section styles */
+.portfolio {
+  margin-bottom: 120px;
+}
 .portfolio .portfolio-content {
   width: 70.5%;
 }
@@ -278,7 +281,6 @@ span {
   font-family: "Inter" sans-serif;
   font-size: 24px;
   font-weight: 500;
-  
 }
 
 .portfolio .portfolio-content .portfolio-awesome {
@@ -291,20 +293,99 @@ span {
 }
 
 .portfolio .portfolio-content .portfolio-description {
-  color:  #2e2e2e;
+  color: #2e2e2e;
   font-family: "Inter" sans-serif;
   font-size: 20px;
   font-weight: 400;
 }
-.portfolio .img1, .img2 {
+.portfolio .img1,
+.img2 {
   width: 100%;
 }
-  
+
 .portfolio img {
-  margin: 15px 25px 15px 0 ;
+  margin: 15px 25px 15px 0;
   width: 30%;
 }
 
 .portfolio img:hover {
   transform: rotate(3deg);
+}
+
+/* subscribe section */
+.subscribe {
+  margin-bottom: 120px;
+  height: 400px;
+  border-radius: 16px;
+  background: rgba(255, 0, 0, 0.05);
+  padding: 80px 200px;
+}
+
+.subscribe .all-content {
+  text-align: center;
+}
+.subscribe .all-content h2 {
+  color: #070211;
+  font-family: "Merriweather", sans-serif;
+  font-size: 48px;
+  font-weight: 900;
+  margin-bottom: 0;
+}
+
+.subscribe .all-content p {
+  color: #2e2e2e;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Inter" sans-serif;
+}
+
+.input-subscribe .submit {
+  padding: 25px 50px;
+  border-radius: 50px;
+  background: #fff;
+}
+
+
+/* footer section */
+footer {
+  height: 300px;
+  padding: 90px 200px 120px;
+  background: #070211;;
+  color: white;
+}
+.address-contact {
+  border-bottom: 1px solid gray;
+}
+
+.address-contact {
+  display: flex;
+  justify-content: space-between;
+  align-items: center ;
+}
+
+.address-contact .address {
+  width: 300px;
+  line-height: 32px;
+}
+
+.address-contact .contact label {
+  display: block;
+  line-height: 32px;
+}
+
+.social-link {
+  padding: 35px 300px;
+  border-bottom: 1px solid gray;
+  
+}
+.social-link a {
+  margin-right: 10px;
+}
+
+.copyright-section {
+  display: flex;
+  justify-content: space-between;
+  justify-items: center;
+  align-items: center;
+  padding-top: 25px;
 }
