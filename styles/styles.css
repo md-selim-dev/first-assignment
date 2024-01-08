@@ -1,9 +1,6 @@
 body {
-  font-family: "Inter", sans-serif;
-  font-family: "Merriweather", serif;
   margin: 0;
 }
-
 /* Banner section start */
 .banner-section {
   display: block;
@@ -23,13 +20,11 @@ body {
   margin: auto;
   font-family: "Merriweather", serif;
 }
-
 .new-year {
   font-size: 32px;
   font-weight: 400;
   margin-top: 70px;
 }
-
 .celebration {
   font-size: 72px;
   font-weight: 900;
@@ -39,10 +34,9 @@ body {
 /* Banner section end */
 
 /* main start */
-
 main {
-  margin-left: 120px;
-  margin-right: 120px;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 /* Discount section start */
 .discount {
@@ -51,21 +45,18 @@ main {
   width: 800px;
   margin: auto;
 }
-
 .discount .off {
   font-size: 88px;
   font-weight: 800;
   color: #f00;
   margin-bottom: 0;
 }
-
 .discount .holiday-deals {
   font-size: 24px;
   font-weight: 500;
   color: #f00;
   margin-bottom: 0;
 }
-
 .discount .categories {
   font-size: 48px;
   font-weight: 700;
@@ -94,7 +85,6 @@ main {
   padding: 126px 100px;
   color: white;
 }
-
 .mid-welcome {
   font-family: "Merriweather", serif;
   font-size: 64px;
@@ -104,7 +94,6 @@ main {
   margin-top: 0;
   margin-bottom: 30px;
 }
-
 .mid-content {
   margin: auto;
   color: rgba(255, 255, 255, 0.8);
@@ -113,7 +102,6 @@ main {
   font-weight: 400px;
   line-height: 30px;
 }
-
 .btn-join {
   margin-top: 20px;
   text-transform: uppercase;
@@ -127,13 +115,13 @@ main {
   cursor: pointer;
   background-color: transparent;
 }
-
 .btn-join:hover {
   background-color: rgba(255, 255, 255, 0.1);
 }
+/* midnight section end */
 
 
-/* Join now section */
+/* Join now section start*/
 .join-section {
   height: 280px;
   background-image: linear-gradient(
@@ -146,14 +134,10 @@ main {
   padding: 78px 200px 100px;
   border-radius: 16px;
 }
-
 .join-btnn {  
   width: 178px;
   margin: 20px auto;
-  
 }
-
-
 .join-section .btn-join1 {
   text-transform: uppercase;
   padding: 16px 32px;
@@ -165,11 +149,9 @@ main {
   color: white;
   cursor: pointer;
 }   
-
 .join-section .btn-join1:hover {
   background-color: rgb(190, 12, 12);
 }
-
 .event-time {
   color: #070211;
   font-family: sans-serif;
@@ -178,15 +160,16 @@ main {
   text-align: center;
   text-transform: capitalize;
 }
-
 .event-time p {
   line-height: 25px;
 }
 span {
   color: #f00;
 }
+/* Join now section end*/
 
-/* coming soon section */
+
+/* coming soon section start*/
 .coming-soon {
   gap: 12px;
   display: flex;
@@ -195,13 +178,11 @@ span {
   margin-bottom: 120px;
   font-family: "Inter" sans-serif;
 }
-
 .coming-soon .left,
 .right,
 .middle {
   width: 26%;
 }
-
 .coming-soon .left {
   line-height: 24px;  
 }
@@ -210,7 +191,6 @@ span {
   font-family: Inter;
   font-weight: 500px;
 }
-
 .coming-soon .left-title {
   color: #070211;
   font-family: "Merriweather", sans-serif;
@@ -228,20 +208,19 @@ span {
   color: rgb(51, 50, 50);
   line-height: 24px;  
 }
-
 .coming-soon .middle {
   border: 15px solid #f00;
   border-radius: 50%;
   background: white;
   padding: 20px;
 }
+/* coming soon section end*/
 
-/* Holiday discount section */
+/* Holiday discount section start*/
 .holiday-discount {
   margin-bottom: 120px;
   position: relative;
 }
-
 .holiday-discount .content-area {
   text-align: center;
   padding: 0 100px;
@@ -253,7 +232,6 @@ span {
   font-size: 24px;
   font-weight: 500px;
 }
-
 .holiday-discount .content-area .holyday-sale {
   color: #070211;
   font-size: 70px;
@@ -268,7 +246,6 @@ span {
   font-size: 20px;
   line-height: 32px;
 }
-
 .holiday-discount .image-area {
   width: 100%;
   height: 600px;
@@ -281,32 +258,30 @@ span {
   overflow: hidden;
   display: flex;
 }
-
 .giftBox {
   width: 550px;
 }
-
 .discountImg {
   margin-top: 50px;
   width: 300px;
   height: 300px;
 }
+/* Holiday discount section end */
 
-/* portfolio section styles */
+
+/* portfolio section styles start*/
 .portfolio {
   margin-bottom: 120px;
 }
 .portfolio .portfolio-content {
   width: 70.5%;
 }
-
 .portfolio .portfolio-content .portfolioGiftTitle {
   color: #f00;
   font-family: "Inter" sans-serif;
   font-size: 24px;
   font-weight: 500;
 }
-
 .portfolio .portfolio-content .portfolio-awesome {
   color: #070211;
   font-family: "Merriweather", sans-serif;
@@ -315,7 +290,6 @@ span {
   margin-top: 0;
   margin-bottom: 0;
 }
-
 .portfolio .portfolio-content .portfolio-description {
   color: #2e2e2e;
   font-family: "Inter" sans-serif;
@@ -325,17 +299,16 @@ span {
 .portfolio .img1, .img2 {
   width: 100%;
 }
-
 .portfolio img {
   margin: 15px 25px 15px 0;
   width: 30%;
 }
-
 .portfolio img:hover {
   transform: rotate(3deg);
 }
+/* portfolio section styles start*/
 
-/* subscribe section */
+/* subscribe section start*/
 .subscribe {
   margin-bottom: 120px;
   height: 400px;
@@ -343,7 +316,6 @@ span {
   background: rgba(255, 0, 0, 0.05);
   padding: 80px 200px;
 }
-
 .subscribe .all-content {
   text-align: center;
 }
@@ -354,7 +326,6 @@ span {
   font-weight: 900;
   margin-bottom: 0;
 }
-
 .subscribe .all-content p {
   color: #2e2e2e;
   font-size: 18px;
@@ -367,7 +338,6 @@ span {
   margin: 50px auto;
   border-radius: 20px;
 }
-
 .input-subscribe > form > input, button {
   display: block;
   float: left;
@@ -379,7 +349,6 @@ span {
   background-color: azure;
   border-radius: 30px 0  0 30px ; 
 }
-
 .input-subscribe > form > button {
   padding: 15px 20px;
   font-size: 20px;
@@ -388,28 +357,29 @@ span {
   border-radius: 0 30px 30px 0 ; 
   cursor: pointer;
 }
+/* subscribe section start*/
+/* main end */
 
-/* footer section */
+
+/* footer section start*/
 footer {
   height: 300px;
   padding: 100px 120px 120px;
   background: #070211;;
   color: white;
-  font-size: 20px ;
+  font-size: 19px ;
+  font-family: "Inter" sans-serif;
 }
-
 .address-contact {
   display: flex;
   justify-content: space-between;
   align-items: center ;
   border-bottom: 1px solid gray;
 }
-
 .address-contact .address {
   width: 330px;
   line-height: 38px;
 }
-
  label {
   display: block;
   line-height: 38px;
@@ -421,11 +391,13 @@ footer {
   margin-bottom: -8px;
 }
 .social-link {
-  padding: 35px 300px;
+  padding: 35px 0;
   border-bottom: 1px solid gray;
-  
 }
-
+.social-link .social-link-middle {
+  width: 350px;
+  margin: 0 auto;
+}
 .address-contact .contact label a {
   color: white;
   text-decoration: none ;
@@ -433,7 +405,9 @@ footer {
 .social-link a {
   margin-right: 10px;
 }
-
+.social-link  img {
+  width: 55px;
+}
 .copyright-section {
   display: flex;
   justify-content: space-between;
@@ -441,8 +415,8 @@ footer {
   align-items: center;
   padding-top: 25px;
 }
-
 .copyright-section a {
   color: white;
   text-decoration: none;
 }
+/* footer section end*/
